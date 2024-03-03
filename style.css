@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(228, 194, 3), rgb(134, 175, 166));
+  min-height: 100vh;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: white;
+  display: flex;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.card:hover {
+  width: 600px;
+}
+
+.box img {
+  max-width: 300px;
+  min-height: 400px;
+  position: relative;
+  justify-content: center;
+}
+
+.details {
+  background-color: rgb(3, 31, 19);
+  padding-left: 8px;
+  color: white;
+  padding-top: 15px;
+}
+
+.details .des {
+  line-height: 3px;
+}
+
+.details h5 {
+  font-size: 15px;
+}
+
+.size {
+  padding-left: 0px;
+}
+
+.details .size li {
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background: rgb(3, 31, 19);
+  color: white;
+  border: 2px solid white;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.size li:hover {
+  background: white;
+  color: black;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+.price h3 span {
+  font-size: 20px;
+}
+.price button {
+  justify-content: flex-end;
+  width: 100px;
+  height: 30px;
+  margin-top: 12px;
+  margin-right: 8px;
+}
+
+.price button:hover {
+  color: rgb(0, 0, 0);
+  background: yellow;
+  border: none;
+}
